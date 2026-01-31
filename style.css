@@ -5,5 +5,59 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: ;
+    box-sizing: border-box;
+}
+
+/*===VARIÁVEIS===*/
+:root {
+    /* 🎨 Cores */
+    --body-bg: #f6f5fa;
+  --body-text: #1f1f1f;
+  --body-text-muted: #6e6a7a;
+     --header-bg: #ffffff;
+  --header-title: #1f1f1f;
+  --header-subtitle: #6e6a7a;
+  --bg-main: #f6f5fa;
+  --bg-card: #ffffff;
+  --text-main: #1f1f1f;
+  --text-muted: #6e6a7a;
+  --accent: #7c7cff;
+  --accent-soft: #e6e6ff;
+  --success: #4caf7a;  
+
+  /* 📐 Espaçamentos */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+
+  /* 🔤 Tipografia */
+  --header-title-size: 1.5rem;
+  --header-subtitle-size: 0.875rem;
+  --font-main: 'Poppins', sans-serif;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.25rem;
+
+  /* 🧩 UI */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+}
+ /*==global==*/
+body{
+    color: var(--body-text);
+    color: var(--body-text-muted);
+    background-color: var(--body-bg);
+    font-weight: 400;
+}
+
+.topo {
+    background-color: var(--header-bg);
+    padding: var(--space-md);
+    text-align: center;
+    font-family: var(--header-title-size 1.5rem);
+    font-family: var(--header-subtitle-size 0.875rem);
+    color: var(--header-title);
+    color: var(--header-subtitle);
 }
