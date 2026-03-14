@@ -1,0 +1,1 @@
+cons dataHoje = document.getElementById("data-hoje")
