@@ -40,3 +40,10 @@ botoes.forEach(function(botao){
         document.getElementById("humor-texto").textContent = "Hoje estou me sentindo " + humorEscolhido
     })
 })
+
+const item = document.querySelectorAll(".item")
+console.log(item)
+
+item.forEach(function(item){
+    item.addEventListener("click", function)
+})
