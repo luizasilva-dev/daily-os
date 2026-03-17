@@ -10,39 +10,46 @@
     <header class="topo">
         <h1 class="titulo">Seu sistema diário</h1>
         <p class="subtitulo"id="data-hoje">29/02/2026</p>
+        <p id="hora-agora"></p>
     </header>
     <main class="container">
-        <section class="card">
-            <div>
-                <h2>Como estou me sentindo hoje</h2>
-                <p>Hoje estou me sentindo...</p>
-                &#x1F603; &#x1F610; &#x1F614;
-            </div>
-        </section>
+        <!--cards de humor-->
+ <section class="card">
+    <h2>Como estou me sentindo hoje</h2>
+    <p>Hoje estou me sentindo...</p>
+    <div id="humor-opcoes">
+        <button class="humor-btn" data-humor="feliz">😄</button>
+        <button class="humor-btn" data-humor="neutro">😐</button>
+        <button class="humor-btn" data-humor="triste">😔</button>
+    </div>
+    <p id="humor-texto">Clique para registrar seu humor</p>
+</section>
+        <!--lista de estudos-->
         <section class="card">
                 <h2>Lista de estudos:</h2>
-                <ul>
-                    <li>
+                <ul id= "estudos-lista">
+                    <li class="item" data-id="html">
                         HTML &#x2714;&#xFE0F;
                     </li>
-                    <li>
+                    <li class="item" data-id="css">
                         CSS &#x1F504;
                     </li>
-                    <li>
+                    <li class="item" data-id="javascript">
                         JavaScript &#x1F512;
                     </li>
                 </ul>
         </section>
+        <!--cards de hábitos-->
         <section class="card">
             <h2>Hábitos</h2>
-                <ul>
-                    <li>
+                <ul id="lista-habitos">
+                    <li class="item" data-id="agua">
                         Água &#x1F4A7;
                     </li>
-                    <li>
+                    <li class="item" data-id="leitura">
                         Leitura &#x1F4D6;
                     </li>
-                    <li>
+                    <li class="item" data-id="treino">
                         Treino &#x1F9D8;&#x200D;&#x2640;&#xFE0F;
                     </li>
                 </ul>
