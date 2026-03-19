@@ -29,5 +29,25 @@ const botoes = document.querySelectorAll(".humor-btn")
 botoes.forEach(function(botao){
     botao.addEventListener("click", function() {
         const humorEscolhido = botao.dataset.humor
+<<<<<<< HEAD
 document.getElementById("humor-texto").textContent = "Hoje estou me sentindo " + humorEscolhido    })
+=======
+        
+        // remove ativo de todos os botões
+        botoes.forEach(function(b){
+            b.classList.remove("ativo")
+        })
+        // adiciona ativo ao botão clicado
+        botao.classList.add("ativo")
+        // coloca na página
+        document.getElementById("humor-texto").textContent = "Hoje estou me sentindo " + humorEscolhido
+    })
+})
+
+const item = document.querySelectorAll(".item")
+console.log(item)
+
+item.forEach(function(item){
+    item.addEventListener("click", function)
+>>>>>>> origin/main
 })
